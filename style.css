@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background-color: white; */
+    background-color: #eaf2ef;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cont{
+    background-color: #333;
+    background-color: #4d4b4b;
+    padding: 40px 30px 30px;
+    min-width: 300px;
+    min-height: 500px;
+    /* height: 300px; */
+    padding-right: 30px;
+    border-radius: 20px;
+    box-shadow: 25px 25px 75px rgba(0, 0,0, 0.25),10px 10px 70px rgba(0, 0,0, 0.25),inset -5px -5px 15px rgba(0, 0,0, 0.25),inset 5px 5px 15px rgba(0, 0,0, 0.25);
+}
+.calc{
+    display: grid;
+    gap: 10px;
+}
+.calc .screen{
+    grid-column: span 4;
+    height: 100px;
+    width: calc(100%-10px);
+    background-color: #a7af7c;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-align: right;
+    padding: 10px;
+}
+.calc button{
+    border: none;
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(180deg, #2f2f2f, #3f3f3f);
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    box-shadow: inset -8px 0 8px rgba(0, 0, 0, 0.15),inset 0 -8px 8px rgba(0, 0, 0, 0.25),
+    0 0 0 2px rgba(0, 0, 0, 0.75),
+    10px 20px 25px rgba(0, 0, 0, 0.4);
+}
+.calc button::before {
+    position: absolute;
+    content: '';
+    top:3px;
+    left: 6px;
+    bottom: 5px;
+    right: 6px;
+    border-radius: 10px;
+    background-color: linear-gradient(90deg, #2d2d2d, #4d4d4d);
+    box-shadow: -5px -5px 15px rgba(0, 0, 0, 0.1),
+    10px 5px 10px rgba(0, 0, 0, 0.15);
+    border-left: 1px solid rgba(0, 0, 0, 0.27);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.27);
+    border-top: 1px solid rgba(0, 0, 0, 0.6);
+}
+.calc button i{
+    position: relative;
+    font-size: 1.3rem;
+    font-style: normal;
+}
+.calc button:active{
+    filter: brightness(1.5);
+}
+.calc button.clear {
+    background:brown;
+}
+.calc button.equal{
+    grid-row: span 2;
+    height: 115px;
+    background:grey;
+    background: linear-gradient(rgb(112, 111, 111),rgb(73, 70, 70));
+    /* box-shadow: inset -5px -5px 5px rgba(0, 0, 0, 0.25); */
+}

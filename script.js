@@ -10,7 +10,10 @@ buttona.forEach((item) => {
             disp.value=str.substr(0,str.length-1);
         }
         else if(item.dataset.button==='=')
+        {
+            if (disp.value !== '') 
                 disp.value = eval(disp.value);
+        }
         else 
             disp.value += item.dataset.button;
         }

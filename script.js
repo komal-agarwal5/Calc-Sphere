@@ -46,7 +46,7 @@ buttons2.forEach((item) => {
             } else if (item.dataset.buttont === '=') {
                 if (display2.value !== '') {
                     display2.value = eval(display2.value);
-                    prev = '=';
+                    prev2 = '=';
                 }
                 else {
                     display2.value = 'Enter some value first';

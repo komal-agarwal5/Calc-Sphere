@@ -13,7 +13,7 @@ Welcome to my Calculator Website! This simple and user-friendly calculator allow
 
 ## Features
 
-1. Basic Arithmetic Operations
+1) Basic Arithmetic Operations
    
 - Addition
 
@@ -25,7 +25,7 @@ Welcome to my Calculator Website! This simple and user-friendly calculator allow
 
 - Modulus
  
-2. Scientific Functions
+2) Scientific Functions
 
  - Square root
  
@@ -39,13 +39,13 @@ Welcome to my Calculator Website! This simple and user-friendly calculator allow
 
  - Factorial
  
-3. Memory Functions
+3) Memory Functions
 
  - Single Erase(CE)
 
  - Clear all(C)
  
-4. User-Friendly Interface
+4) User-Friendly Interface
    
  - Clean and intuitive design
  
@@ -55,6 +55,9 @@ Welcome to my Calculator Website! This simple and user-friendly calculator allow
 ## Contributing
  Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. 
 Please make sure to update tests as appropriate.
+
+## License
+<a href="https://github.com/komal-agarwal5/Calc-Sphere/blob/main/LICENSE">Apache License 2.0  © Komal Agarwal </a>
 
 ## Where to contact ?
 Contact: [komal.agarwal0709@gmail.com]

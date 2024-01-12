@@ -244,9 +244,9 @@ body{
     .main{
         display: block;
     }
-    .cont{
+    /* .cont{
         margin-left: 10px;
-    }
+    } */
     #title2{
         display: none;
     }

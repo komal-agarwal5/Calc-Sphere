@@ -244,11 +244,18 @@ body{
     .main{
         display: block;
     }
+    .outer{
+        margin: 0px 7px;
+        width: 95%;
+    }
     /* .cont{
         margin-left: 10px;
     } */
     #title2{
         display: none;
+    }
+    #title3{
+        text-align: center;
     }
     .maint{
         margin-left: 30px;

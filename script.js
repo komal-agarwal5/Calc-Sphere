@@ -1,36 +1,36 @@
-const display = document.querySelector('.screen');
-const buttons = document.querySelectorAll('.btn');
-let prev = null;
-buttons.forEach((item) => {
-    item.onclick = () => {
-        try {
-            if (item.dataset.button === 'C') {
-                display.value = '';
-            } else if (item.dataset.button === 'CE') {
-                let string = display.value;
-                display.value = string.substr(0, string.length - 1);
-            } else if (item.dataset.button === '=') {
-                if (display.value !== '') {
-                    display.value = eval(display.value);
-                    prev = '=';
-                }
-                else {
-                    display.value = 'Enter some value first';
-                    setTimeout(() => (display.value = ''), 1000)
-                }
-            } else {
-                if (prev === '=' && (!isNaN(item.dataset.button))) {
-                    display.value = '';
-                }
-                display.value += item.dataset.button;
-                prev = item.dataset.button;
-            }
-        } catch (err) {
-            display.value = 'Invalid Entry';
-            setTimeout(() => (display.value = ''), 1000)
-        }
-    }
-})
+// const display = document.querySelector('.screen');
+// const buttons = document.querySelectorAll('.btn');
+// let prev = null;
+// buttons.forEach((item) => {
+//     item.onclick = () => {
+//         try {
+//             if (item.dataset.button === 'C') {
+//                 display.value = '';
+//             } else if (item.dataset.button === 'CE') {
+//                 let string = display.value;
+//                 display.value = string.substr(0, string.length - 1);
+//             } else if (item.dataset.button === '=') {
+//                 if (display.value !== '') {
+//                     display.value = eval(display.value);
+//                     prev = '=';
+//                 }
+//                 else {
+//                     display.value = 'Enter some value first';
+//                     setTimeout(() => (display.value = ''), 1000)
+//                 }
+//             } else {
+//                 if (prev === '=' && (!isNaN(item.dataset.button))) {
+//                     display.value = '';
+//                 }
+//                 display.value += item.dataset.button;
+//                 prev = item.dataset.button;
+//             }
+//         } catch (err) {
+//             display.value = 'Invalid Entry';
+//             setTimeout(() => (display.value = ''), 1000)
+//         }
+//     }
+// })
 
 const display2 = document.querySelector('.screen2');
 const buttons2 = document.querySelectorAll('.btn2');

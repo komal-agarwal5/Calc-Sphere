@@ -1,66 +1,63 @@
 # Calc-Sphere 🧮 
 ## What is it?
 
--> Welcome to our Calculator Website! This simple and user-friendly calculator allows you to perform a variety of mathematical operations with ease. Whether you're a student, professional, or just need to crunch some numbers, our calculator has you covered.
-
--> It consists of two types of calculators-
-
-      a)Simple Calculator
-
-      b)Scientific Calculator
+Welcome to my Calculator Website! This simple and user-friendly calculator allows you to perform a variety of mathematical operations with ease. Whether you're a student, professional, or just need to crunch some numbers, our calculator has you covered.
 
 ## Tech Stack
 
--> HTML
+- HTML
 
--> CSS
+- CSS
 
--> JS
+- JS
 
 ## Features
 
-1. Basic Arithmetic Operations
+1) Basic Arithmetic Operations
    
--> Addition
+- Addition
 
--> Subtraction
+- Subtraction
   
--> Multiplication
+- Multiplication
   
--> Division
+- Division
 
--> Modulus
+- Modulus
  
-2. Scientific Functions
+2) Scientific Functions
 
- -> Square root
+ - Square root
  
- -> Exponentiation
+ - Exponentiation
  
- -> Trigonometric functions (sin, cos, tan)
+ - Trigonometric functions (sin, cos, tan)
  
- -> Logarithmic functions
+ - Logarithmic functions
 
- -> Random
+ - Random
 
- -> Factorial
+ - Factorial
  
-3. Memory Functions
+3) Memory Functions
 
- -> Single Erase(CE)
+ - Single Erase(CE)
 
- -> Clear all(C)
+ - Clear all(C)
  
-4. User-Friendly Interface
+4) User-Friendly Interface
    
- -> Clean and intuitive design
+ - Clean and intuitive design
  
- -> Responsive layout for various screen sizes
+ - Responsive layout for various screen sizes
 
 
 ## Contributing
--> Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. 
+ Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. 
 Please make sure to update tests as appropriate.
+
+## License
+<a href="https://github.com/komal-agarwal5/Calc-Sphere/blob/main/LICENSE">Apache License 2.0  © Komal Agarwal </a>
 
 ## Where to contact ?
 Contact: [komal.agarwal0709@gmail.com]
